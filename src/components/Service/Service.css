@@ -1,0 +1,85 @@
+.service{
+    width: 100%;
+    padding-top: 100px;
+    background: #000;
+}
+.service_text{
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-family: serif;
+}
+.experience{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    padding: 60px;
+}
+
+
+.experience_div{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 5px white;
+
+}
+.experience_div:hover{
+    box-shadow: 0 0 10px white;
+}
+
+
+
+.experience_a{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px white;
+    padding-top: 2px;
+}
+
+.experience_a a{
+    color: white;
+    font-size: 25px;
+    letter-spacing: .1em;
+    width:100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+
+
+.experience_i{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience_img{
+    object-fit: cover;
+    width: 100%;
+}
+
+
+@media (max-width:950px) {
+    .experience{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }   
+}
+@media (max-width:650px) {
+    .experience{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+}
