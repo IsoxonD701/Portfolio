@@ -12,7 +12,7 @@ function Effect() {
         }, 0);
 
         setTimeout(() => {
-            setLoad(true)
+            setLoad(false)
         }, 3000);
     
     }, [])
