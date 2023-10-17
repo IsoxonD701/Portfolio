@@ -27,11 +27,11 @@ export const static_project = [
     },
     {
         id:3,
-        text:"Wallet",
+        text:"Calculator",
         text_p:"for myself",
         image:i3,
-        btn:"Wallet",
-        a:"/"
+        btn:"Calculator",
+        a:"https://calculator-five-livid.vercel.app/"
     },
     {
         id:4,
