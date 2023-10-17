@@ -1,7 +1,7 @@
 .project{
     width: 100%;
     padding-top: 100px;
-    background: #000;
+    background: #00000070;
     padding-bottom: 50px;
 }
 .my_project{
@@ -32,6 +32,7 @@
     height: 370px;
     overflow: hidden;
     box-shadow: 0 0 2px white;
+    background: #00000099;
     
 }
 .swipers_div:hover{

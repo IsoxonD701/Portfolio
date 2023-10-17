@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Navbar.css"
 import { Link } from 'react-scroll'
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo_img from "../../images/logo.png"
 
 function Navbar() {
 
@@ -10,7 +11,7 @@ function Navbar() {
     return (
         <div className='nav'>
             <div className="nav_logo">
-                <h1>Isoxon</h1>
+                <img className='logo_img' src={logo_img} alt="" />
 
             </div>
             <div className="block">

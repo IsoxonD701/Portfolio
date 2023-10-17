@@ -1,7 +1,7 @@
 .service{
     width: 100%;
     padding-top: 100px;
-    background: #000;
+    background: #00000070;
 }
 .service_text{
     text-align: center;
@@ -26,6 +26,7 @@
     flex-direction: column;
     justify-content: space-around;
     box-shadow: 0 0 5px white;
+    background: #00000099;
 
 }
 .experience_div:hover{
