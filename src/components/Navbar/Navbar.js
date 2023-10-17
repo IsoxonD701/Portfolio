@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Navbar.css"
 import { Link } from 'react-scroll'
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo_img from "../../images/logo.png"
+import logo_img from "../../images/isoxon_logo-removebg-preview.png"
 
 function Navbar() {
 
