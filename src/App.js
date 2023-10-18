@@ -12,7 +12,6 @@ import bg_image from "./images/logo.png"
 function App() {
   return (
     <div>
-
         <img style={{position:"fixed", width:"100%", height:"100%", zIndex:"-1"}} src={bg_image} alt="" />
 
       <Effect/>
