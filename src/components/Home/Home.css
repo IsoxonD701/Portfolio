@@ -140,7 +140,6 @@
     overflow: hidden;
     box-shadow: 0 0 30px #FFF;
     background: #000;
-    margin-top: 20px;
     display: none;
 }
 
@@ -299,12 +298,13 @@
 
     .hidden_img {
         display: block;
-        margin-top: 170px;
+        margin-top: 30px;
     }
 
     .isoxon_form {
         flex-direction: column;
         align-items: flex-start;
+        top: 200px;
       }
     
       .isoxon_inp,

@@ -47,7 +47,7 @@ function Home() {
                         Salom, {displayName}! &#128075;
                     </h1>
                     <h1 style={{ marginLeft: scrollNumber < 80 ? 0 : "-800px", transition: "1s" }}>
-                        Xush kelibsiz, <i>Mening portfolyo saytimga</i>
+                        Xush kelibsiz,<i>Mening portfolyo saytimga</i>
                     </h1>
                     <h2 style={{ marginLeft: scrollNumber < 100 ? 0 : "-800px", transition: "1s" }}>
                         Men <i>Isoxon Karimjonovman</i>
@@ -80,8 +80,8 @@ function Home() {
                     </div>
                 </form>
             )}
-            <div className="hidden_img">
-                <img style={{ opacity: scrollNumber < 150 ? 0.4 : 1, transition: "1s" }} className='home_img' src={home_img} alt="" />
+            <div className={`hidden_img ${displayName ? 'block' : 'hidden'}`}>
+                <img className={`home_img ${displayName ? 'hidden' : 'block'}`} style={{ opacity: scrollNumber < 150 ? 0.4 : 1, transition: "1s" }} src={home_img} alt="" />
             </div>
             <div className={`home_div ${displayName ? 'block' : 'hidden'}`}>
                 <img style={{ opacity: scrollNumber < 50 ? 1 : 0.4, transition: "1s" }} className='home_img' src={home_img} alt="" />
