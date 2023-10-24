@@ -14,8 +14,8 @@ function App() {
     <div>
         <img style={{position:"fixed", width:"100%", height:"100%", zIndex:"-1"}} src={bg_image} alt="" />
 
-      <Effect/>
-      <Navbar />
+      <Effect />
+      <Navbar/>
       <Home />
       <Project/>
       <Service />
