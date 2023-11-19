@@ -90,7 +90,7 @@ function Contact() {
                     <DiJavascript1 className='footer_i' />
                 </div>
 
-                <a href="905550822">Tell me: +998905550822</a>
+                <a href="tel:998905550822">Tell me: +998905550822</a>
             </div>
 
         </div>
